@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.gestionrural.meirelles.gestionrural.gestion">
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="503dp"
+        android:orientation="vertical"
+        tools:layout_editor_absoluteY="17dp"
+        android:layout_marginRight="0dp"
+        app:layout_constraintRight_toRightOf="parent"
+        android:layout_marginLeft="0dp"
+        app:layout_constraintLeft_toLeftOf="parent">
+
+        <Button
+            android:id="@+id/btnGestionVacunosMachos"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="navegarGestionMachos"
+            android:text="Vacunos Machos"
+            tools:layout_editor_absoluteX="117dp"
+            tools:layout_editor_absoluteY="206dp" />
+
+        <Button
+            android:id="@+id/btnGestionVacunosHembras"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="navegarGestionHembras"
+            android:text="Vacunos Hembras"
+            tools:layout_editor_absoluteX="113dp"
+            tools:layout_editor_absoluteY="119dp" />
+
+        <Button
+            android:id="@+id/btnGestionVacunosGeneral"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="navegarGestionGeneral"
+            android:text="Vacunos General"
+            tools:layout_editor_absoluteX="148dp"
+            tools:layout_editor_absoluteY="298dp" />
+
+    </LinearLayout>
+</android.support.constraint.ConstraintLayout>
